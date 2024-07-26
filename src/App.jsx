@@ -22,7 +22,7 @@ const App = () => {
   };
 
   const completeTask = (taskId) => {
-    setTasks(tasks.map((task) => (task.id === taskId ? { ...task,  completed: !task.completed } : task)));
+    setTasks(tasks.map((task) => (task.id === taskId ? { ...task, completed: !task.completed } : task)));
   };
 
   return (
